@@ -1,4 +1,4 @@
-veloReader = velodyneFileReader('4 intersecton w police car.pcap','HDL32E');
+veloReader = velodyneFileReader('4 intersecton w police car.pcap','HDL32E');  %type in the name and type of the file（pcap）
 xlimits = [-60 60];
 ylimits = [-60 60];
 zlimits = [-20 20];
