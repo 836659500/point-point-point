@@ -1,7 +1,7 @@
 % ICP algorithm to merge two point cloud image
+
 ptCloudRef = pcread('');%fixed image
-ptCloudRef = pcread('');%moving image
-ptCloudCurrent = pctmp;
+ptCloudCurrent = pcread('');%moving image
 gridSize = 0.1;
 fixed = pcdownsample(ptCloudRef, 'gridAverage', gridSize);
 moving = pcdownsample(ptCloudCurrent, 'gridAverage', gridSize);
